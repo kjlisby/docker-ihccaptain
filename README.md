@@ -25,6 +25,8 @@ Those who only want to use the image, should only have to:
 3. Run the image as a daemon:
 *           docker run -d --name IHCCaptain -p 8100:80 -p 9100:443 -v ./ihccaptain/data:/opt/ihccaptain/data/ -v ./ihccaptain/host:/host/ -v "/etc/localtime:/etc/localtime:ro" arberg/ihccaptain:latest
 
+See also https://hub.docker.com/r/arberg/ihccaptain
+
 ## How To build docker image again
 
 * Manually update file VERSION
