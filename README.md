@@ -14,6 +14,16 @@ See
 
 Note that it may be necessary to change the default port to an unused port on your host system. see run.sh
 
+The contents of this repository is only used for building and uploading the container to DockerHub. See https://hub.docker.com/search?q=ihccaptain
+
+The author (https://github.com/arberg) seem to be updating on DockerHub pretty often. So this repository is only needed when you want to modify something in the container, or if you for other reasons want to rebuild the image yourself.
+
+Those who only want to use the image, should only have to:
+* 1. Download the image from DockerHub
+*           docker pull arberg/ihccaptain
+* 2. Run the image as a daemon:
+*           docker run -d --name IHCCaptain -p 8100 -p 9100 -v /opt/ihccaptain/data/ -v /host/ -v "/etc/localtime:/etc/localtime:ro" arberg/ihccaptain:latest
+
 ## How To build docker image again
 
 * Manually update file VERSION
