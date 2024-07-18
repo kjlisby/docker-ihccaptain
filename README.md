@@ -19,11 +19,11 @@ The contents of this repository is only used for building and uploading the cont
 The author (https://github.com/arberg) seem to be updating on DockerHub pretty often. So this repository is only needed when you want to modify something in the container, or if you for other reasons want to rebuild the image yourself.
 
 Those who only want to use the image, should only have to:
-* 1. Install Docker on your Raspberry Pi (see the guides above)
-* 2. Download the ihccaptain image from DockerHub
-*           docker pull arberg/ihccaptain
-* 3. Run the image as a daemon:
-*           docker run -d --name IHCCaptain -p 8100 -p 9100 -v /opt/ihccaptain/data/ -v /host/ -v "/etc/localtime:/etc/localtime:ro" arberg/ihccaptain:latest
+1. Install Docker on your Raspberry Pi (see the guides above)
+2. Download the ihccaptain image from DockerHub
+           docker pull arberg/ihccaptain
+3. Run the image as a daemon:
+           docker run -d --name IHCCaptain -p 8100 -p 9100 -v /opt/ihccaptain/data/ -v /host/ -v "/etc/localtime:/etc/localtime:ro" arberg/ihccaptain:latest
 
 ## How To build docker image again
 
