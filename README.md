@@ -4,6 +4,7 @@ Dockerfile for IHC Captain
 See 
 * https://docs.docker.com/guides/docker-concepts/the-basics/what-is-a-container/
 * https://raspberrytips.com/docker-on-raspberry-pi/
+* https://www.instructables.com/Build-Docker-Image-for-Raspberry-Pi/
 * https://hub.docker.com/r/arberg/ihccaptain/
 * https://www.ihc-user.dk/forum/forums/topic/7151-ihc-captain-p%C3%A5-linux-milj%C3%B8docker/
 * http://jemi.dk/ihc/
